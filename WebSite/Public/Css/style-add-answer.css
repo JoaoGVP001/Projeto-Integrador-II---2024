@@ -4,8 +4,8 @@ div#form-container {
     left: 15%;
     border: 1px solid white;
     border-radius: 15px;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 div#form-content {
@@ -14,8 +14,8 @@ div#form-content {
 
 div#form-container h1 {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 div#form-container div#msgError {
@@ -36,21 +36,14 @@ div.label-float label {
     font-weight: 500;
 }
 
-div.label-float input, textarea {
+div.label-float textarea {
     color: black;
     outline: none;
     border-radius: 10px;
     font-size: 16px;
 }
 
-div.label-float input {
-    position: relative;
-    border: 0;
-    width: 40%;
-    height: 30px;
-}
-
-div.label-float input:focus, textarea:focus {
+div.label-float textarea:focus {
     border: 2px solid var(--roxo-escuro);
 }
 
@@ -58,11 +51,7 @@ div.label-float textarea {
     width: 100%;
 }
 
-hr {
-    margin-bottom: 2%;
-}
-
-div#form-container button#button-add-topic {
+div#form-container button#button-add-answer {
     position: relative;
     left: 42%;
     padding: 10px;
@@ -77,6 +66,6 @@ div#form-container button#button-add-topic {
     background-color: var(--roxo);
 }
 
-div#form-container button#button-add-topic:hover {
+div#form-container button#button-add-answer:hover {
     background-color: var(--roxo-escuro);
 }
